@@ -297,6 +297,12 @@ i:hover {
         width: 100%;
         backdrop-filter: blur(5px);
     }
+    .navbar-nav {
+        padding: 15px;
+    }
+    .navbar-nav .nav-logo {
+        font-size: var(--font-size-m);
+    }
     .navbar-nav :where(#menu-close-button, #menu-open-button){
         display: block;
         font-size: var(--font-size-l);
@@ -381,6 +387,20 @@ i:hover {
     justify-content:space-around;
     }
 
+    .hero-section .hero-section-content .text1{
+        font-size: var(--font-size-m);
+    }
+    .hero-section .hero-section-content .text2 {
+        color: var(--primary-color);
+        font-size: var(--font-size-xl);
+    }
+    .hero-section .hero-section-content .text3{
+        font-size: var(--font-size-m);
+    }
+    .hero-section .hero-section-content .text{
+        color: var(--primary-color);
+        font-size: var(--font-size-s);
+    }
 
 
     
