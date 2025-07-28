@@ -250,9 +250,9 @@ i:hover {
 }
 .about-content-techniques div {
     display: flex;
+    gap: 5px;
 }
 .about-content-techniques div i{
-    padding-right: 10px;
     color: var(--dark-color);
 }
 .about-section-button {
@@ -386,12 +386,21 @@ i:hover {
         width: 75%;
         height: 100%;
     }
-    
    .hero-section .hero-section-image .hero-image{
         position: relative;
         left: 25%;
         height: 70%;
         width: 70%;
+    }
+    
+    /* About section */
+    .about-content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .about-content-techniques {
+        display: flex;
     }
 
       
