@@ -18,3 +18,12 @@ menuCloseButton.addEventListener("click", () => menuOpenButton.click());
 navLinks.forEach(link => {
   link.addEventListener("click", () => menuOpenButton.click());
 });
+
+
+
+const typed = new Typed (".auto-type",{
+  strings:["Programmer", "Web Developer", "Frontend Developer"],
+  typeSpeed:100, 
+  backSpeed:100,
+  looped:true
+}) ;
