@@ -460,7 +460,7 @@ i:hover {
         backdrop-filter: blur(5px);
     }
     .navbar-nav {
-        padding: 25px;
+        padding: 18px;
     }
     .navbar-nav .nav-logo {
         font-size: var(--font-size-m);
