@@ -18,22 +18,22 @@ html {
     /* --another-color:#b76e79; */
     /* --another-color:#228b22; */
     /* --another-color:#008080; */
-    --another-color:#dcae96;
+    /* --another-color:#dcae96; */
+    --another-color:black;
+    
 
 
 
     /* --primary-color:#ffd700; */
-    /* --primary-color:#f0eded; */
+    --primary-color:#f0eded;
     /* --primary-color:#f5deb3; */
-    --primary-color:#c4c3d0;
+    /* --primary-color:#c4c3d0; */
 
     /* --secondary-color:#353839; */
-    /* --secondary-color:#77a8a8; */
+    --secondary-color:#77a8a8;
     /* --secondary-color:#36454f; */
-    --secondary-color:#50222d;
+    /* --secondary-color:#50222d; */
 
-    /* --light-color:;
-    --medium-color:; */
 
     /* Font Size */
     --font-size-s: 0.9rem;
@@ -179,6 +179,7 @@ i:hover {
 }
 .hero-section .hero-section-content .text1{
     font-size: var(--font-size-l);
+    color: var(--secondary-color);
 }
 .hero-section .hero-section-content .text2 {
     color: var(--primary-color);
@@ -186,6 +187,7 @@ i:hover {
 }
 .hero-section .hero-section-content .text3{
     font-size: var(--font-size-l);
+    color: var(--secondary-color);
 }
 .hero-section .hero-section-content .text{
     color: var(--primary-color);
