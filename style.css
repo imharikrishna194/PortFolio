@@ -123,6 +123,23 @@ i:hover {
     background:var(--dark-color);
     color: #50222d;
 }
+.hero-section .hero-section-image .hero-image{
+   animation:floatImage 4s ease-in-out infinite;
+}
+@keyframes floatImage{
+   0%{
+      transform:translateY(0);
+      opacity: 0;
+   }
+   50%{
+      transform: translateY(-1.40rem);
+      opacity: 1;
+   }
+   100%{
+      transform: translateY(0);
+      opacity: 2;
+   }
+}
 .social-link-list {
     display: flex;
     align-items: center;
@@ -192,6 +209,7 @@ i:hover {
     color: var(--secondary-color);
     border:1px solid var(--primary-color) ;
     transition: 0.3s;
+    transform:scale(1.1);
 }
 .hero-section-button .hero-button2 button{
     margin-left: 25px;
@@ -284,6 +302,21 @@ i:hover {
 }
 .about-content-techniques div i{
     color: var(--another-color);
+    animation-name: spin;
+    animation-duration:3s;
+    animation-timing-function: scroll;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 2;
+}
+
+@keyframes spin{
+    0%{
+
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
 }
 .about-section-button {
     text-align: center;
@@ -310,6 +343,7 @@ i:hover {
     color: var(--primary-color);
     border:1px solid var(--primary-color) ;
     transition: 0.3s;
+    transform:scale(1.1);
 }
 .about-section-button .hero-button2 button{
     margin-left: 25px;
@@ -321,6 +355,87 @@ i:hover {
     background:var(--primary-color) ;
     color: var(--secondary-color);
 }
+
+/* Qualification Section */
+.section-tittle3{
+    text-align: center;
+    padding: 15px 0 15px;
+    text-transform: uppercase;
+    font-size: var(--font-size-l);
+    color: var(--primary-color);
+    background:var(--secondary-color) ;
+    border-radius: 5px;
+}
+.section-tittle3::after{
+    content:"";
+    width:120px;
+    height: 3px;
+    display: block;
+    margin: 5px auto 0;
+    border-radius: var(--border-radius-circle);
+    background: var(--primary-color);
+}
+.qualfication{
+    padding: 15px;
+    background-color: var(--primary-color);
+}
+.qualfication .qualification-row {
+    background-color: var(--primary-color);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.qualification-row  .qualification-column{
+    background-color: var(--primary-color);
+    border-left: 5px solid var(--secondary-color);
+    border-right: 5px solid var(--secondary-color);
+    padding: 20px;
+    align-items: center;
+    border-radius: 5%;
+}
+.qualification-column .qualification-content {
+    background-color:var(--primary-color) ;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 2px solid var(--secondary-color);
+}
+.qualification-column .qualification-content:hover {
+    box-shadow: 0 0 15px 5px var(--secondary-color) ;
+    transition: 0.5s;;
+    cursor: pointer;
+    transform:scale(1.1);
+
+}
+
+.qualification-content .qualification-collection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.qualification-content .qualification-collection div{
+    background-color: var(--primary-color);
+    border:2px solid var(--secondary-color);
+    padding: 5px;
+    border-radius: 5px;
+}
+.qualification-content .qualification-collection .year {
+    color: var(--secondary-color);
+    font-size: var(--font-size-s);
+}
+.qualification-content 
+    .collage-name {
+        font-size: var(--font-size-s);
+    }
+    .qualification-content .percentage {
+        font-size: 11px;
+    }
+    .qualification-content .content {
+        font-size: var(--font-size-s);
+    }
+
+
 
 
 
@@ -566,9 +681,8 @@ i:hover {
     /* About Section */
     .section-tittle{
     padding: 8px 0 8px;
-    text-transform: uppercase;
     font-size: var(--font-size-m);
-    color: var(--secondary-color);
+    
     }
     .about-content {
     display: flex;
@@ -607,7 +721,53 @@ i:hover {
         padding: 10px;
     }
     
+    /* Qualification */
+    .section-tittle3{
+        padding: 8px 0 8px;
+        font-size: var(--font-size-m);
 
+    }
+    .qualfication{
+        padding: 8px;
+    }
+    .qualfication .qualification-row {
+        padding: 20px;
+        
+    }
+    .qualification-row  .qualification-column{
+        padding: 15px;
+    }
+    .qualification-column .qualification-content {
+        padding: 8px;
+        margin: 10px;
+        border: 1px solid var(--secondary-color);
+    }
+    .qualification-content .qualification-collection div{
+        border:1px solid var(--secondary-color);
+        padding: 3px;
+        border-radius: 5px;
+    }
+    .qualification-content .qualification-collection .year {
+        color: var(--secondary-color);
+        font-size:10px;
+    }
+    .qualification-content 
+    .collage-name {
+        font-size: 13px;
+        text-decoration: none;
+    }
+    .qualification-content 
+    .collage-name:hover {
+        text-decoration: underline;
+    }
+    .qualification-content .percentage {
+        font-size: 10px;
+    }
+    .qualification-content .content {
+        font-size: var(--font-size-s);
+    }
+
+   
 
     
 

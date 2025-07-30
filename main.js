@@ -27,3 +27,6 @@ const typed = new Typed (".auto-type",{
   backSpeed:100,
   looped:true
 }) ;
+
+
+
