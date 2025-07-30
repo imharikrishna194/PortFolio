@@ -327,6 +327,13 @@ i:hover {
     text-decoration: none;
     text-align: center;
 }
+.about-content div .content li {
+    color: var(--primary-color);
+    font-size: var(--font-size-s);
+}
+.about-content-techniques div{
+    color:var(--primary-color);
+}
 .about-section-button .hero-button button {
     height: 35px;
     width: 135px;
@@ -561,7 +568,14 @@ i:hover {
     .about-content-techniques {
         display: flex;
     }
-
+    .about-section .about-content .another-diviation {
+        position: relative;
+        right: 80px;
+    }
+    .about-section .about-content .another-diviation2 {
+        position: relative;
+        right: 20px;
+    }
       
 }
 @media screen and (max-width:640px) {
@@ -724,6 +738,15 @@ i:hover {
         padding: 10px;
         color:var(--primary-color);
     }
+     .about-section .about-content .another-diviation {
+        position: relative;
+        right: 0px;
+    }
+    .about-section .about-content .another-diviation2 {
+        position: relative;
+        right: 0px;
+    }
+      
     
     /* Qualification */
     .section-tittle3{
@@ -735,20 +758,20 @@ i:hover {
         padding: 8px;
     }
     .qualfication .qualification-row {
-        padding: 20px;
+        padding: 18px;
         
     }
     .qualification-row  .qualification-column{
-        padding: 15px;
+        padding: 12px;
     }
     .qualification-column .qualification-content {
-        padding: 8px;
+        padding: 5px;
         margin: 10px;
         border: 1px solid var(--secondary-color);
     }
     .qualification-content .qualification-collection div{
         border:1px solid var(--secondary-color);
-        padding: 3px;
+        padding: 2px;
         border-radius: 5px;
     }
     .qualification-content .qualification-collection .year {
