@@ -199,6 +199,7 @@ i:hover {
     width: 135px;
     border: none;
     border-radius: 3px;
+    border:1px solid var(--primary-color);
     font-weight: var(--font-weight-semibold);
     background-color:var(--secondary-color);
     color: var(--primary-color);
@@ -207,7 +208,7 @@ i:hover {
     cursor: pointer;
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    border:1px solid var(--primary-color) ;
+    border:1px solid var(--primary-color);
     transition: 0.3s;
     transform:scale(1.1);
 }
@@ -223,6 +224,26 @@ i:hover {
 
 
 /* About Section */
+.first-button button{
+    height: 35px;
+    width: 135px;
+    border: none;
+    border-radius: 3px;
+    font-weight: var(--font-weight-semibold);
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    
+}
+.first-button button:hover {
+    cursor: pointer;
+    background:var(--secondary-color) ;
+    color: var(--primary-color);
+    border:1px solid var(--primary-color) ;
+    transition: 0.3s;
+    transform:scale(1.1);
+    
+
+}
 .section-tittle{
     text-align: center;
     padding: 15px 0 15px;
@@ -241,6 +262,40 @@ i:hover {
     border-radius: var(--border-radius-circle);
     background: var(--secondary-color);
 }
+.about-profile {
+    background:var(--secondary-color);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-profile .about-profile-img-div {
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    border-radius: 100%;
+}
+.about-profile .about-profile-img-div div {
+    padding: 20px;
+    border: 2px var(--primary-color) solid;
+    border-radius: 50%;
+    
+}
+.about-profile .about-profile-img-div div .about-profile-image {
+    border-radius: 50%;
+    height: 248px;
+    width: 240px;
+
+}
+.about-profile  .about-profile-content-div {
+    text-align: center;
+    padding: 20px;
+    color: var(--primary-color);
+}
+
 .section-tittle2{
     text-align: start;
     padding: 20px 0 20px;
@@ -292,13 +347,19 @@ i:hover {
 }
 .about-content-techniques {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    padding: 20px;
+    padding: 15px;
 }
 .about-content-techniques div {
     display: flex;
     gap: 5px;
+    padding: 15px;
+    margin: 5px;
+    color:var(--primary-color);
+    width:300px;
+    align-items: center;
 }
 .about-content-techniques div i{
     color: var(--another-color);
@@ -309,7 +370,6 @@ i:hover {
     animation-direction: alternate;
     animation-delay: 2;
 }
-
 @keyframes spin{
     0%{
 
@@ -330,9 +390,6 @@ i:hover {
 .about-content div .content li {
     color: var(--primary-color);
     font-size: var(--font-size-s);
-}
-.about-content-techniques div{
-    color:var(--primary-color);
 }
 .about-section-button .hero-button button {
     height: 35px;
@@ -446,7 +503,12 @@ i:hover {
 
 
 
-
+/* Skills section */
+.skills-section {
+    background-color: var(--secondary-color);
+    padding: 15px;
+    
+}
 
 @media screen and (min-width:1024px) {
 
@@ -695,6 +757,33 @@ i:hover {
     }
 
     /* About Section */
+    .about-profile {
+        padding: 15px;
+    }
+    .about-profile .about-profile-img-div {
+        padding: 20px;
+        border-left: 8px solid black;
+        border-right: 8px solid black;
+    }
+    .about-profile .about-profile-img-div div {
+        padding: 15px;
+        border: 1px var(--primary-color) solid;    
+    }
+    .about-profile .about-profile-img-div div .about-profile-image {
+        height: 158px;
+        width: 150px;
+    }
+    .about-profile  .about-profile-content-div {
+        text-align: center;
+        padding: 20px;
+        color: var(--primary-color);
+    }
+     .about-profile  .about-profile-content-div
+     .about-profile-content {
+        font-size: 13px;
+     }
+    
+
     .section-tittle{
     padding: 8px 0 8px;
     font-size: var(--font-size-m);
@@ -736,7 +825,10 @@ i:hover {
     .about-content-techniques div{
         width: 50%;
         padding: 10px;
-        color:var(--primary-color);
+        color:var(--primary-color);      
+    }
+    .about-content-techniques div p {
+        font-size: 13px;
     }
      .about-section .about-content .another-diviation {
         position: relative;
