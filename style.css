@@ -288,8 +288,8 @@ i:hover {
 }
 .about-profile .about-profile-img-div div .about-profile-image {
     border-radius: 50%;
-    height: 248px;
-    width: 240px;
+    height: 190px;
+    width: 160px;
 
 }
 .about-profile  .about-profile-content-div {
@@ -298,6 +298,7 @@ i:hover {
     color: var(--primary-color);
 }
 
+/* Soft Skills section */
 .section-tittle2{
     text-align: start;
     padding: 20px 0 20px;
@@ -366,7 +367,7 @@ i:hover {
 .about-content-techniques div i{
     color: var(--another-color);
     animation-name: spin;
-    animation-duration:3s;
+    animation-duration:4s;
     animation-timing-function: scroll;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -475,8 +476,6 @@ i:hover {
     transform:scale(1.1);
 
 }
-
-
 .qualification-content .qualification-collection{
     display: flex;
     align-items: center;
@@ -492,9 +491,12 @@ i:hover {
     color: var(--secondary-color);
     font-size: var(--font-size-s);
 }
-.qualification-content 
-    .collage-name {
+.qualification-content .collage-name {
         font-size: var(--font-size-s);
+        text-decoration: none;
+    }
+.qualification-content .collage-name:hover {
+        text-decoration: underline;
     }
     .qualification-content .percentage {
         font-size: 11px;
@@ -511,6 +513,7 @@ i:hover {
     padding: 15px;
     
 }
+
 
 @media screen and (min-width:1024px) {
 
@@ -772,8 +775,8 @@ i:hover {
         border: 1px var(--primary-color) solid;    
     }
     .about-profile .about-profile-img-div div .about-profile-image {
-        height: 158px;
-        width: 150px;
+        height: 148px;
+        width: 130px;
     }
     .about-profile  .about-profile-content-div {
         text-align: center;
@@ -875,11 +878,13 @@ i:hover {
     .qualification-content 
     .collage-name {
         font-size: 13px;
-        text-decoration: none;
+        text-decoration: none;       
+        
     }
     .qualification-content 
     .collage-name:hover {
         text-decoration: underline;
+        
     }
     .qualification-content .percentage {
         font-size: 10px;
