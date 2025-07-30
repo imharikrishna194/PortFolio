@@ -264,7 +264,7 @@ i:hover {
 }
 .about-profile {
     background:var(--secondary-color);
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -380,7 +380,7 @@ i:hover {
 }
 .about-section-button {
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     
 }
 .about-section-button a{
