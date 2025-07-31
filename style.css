@@ -58,7 +58,7 @@ html {
     --site-max-width: 1300px;
 }
 
-/* Navbar Styling */
+/*========= Navbar Styling =========*/
 /* navbar li */
 .header {
     position: sticky;
@@ -115,7 +115,7 @@ i:hover {
     display: none;
 }
 
-/* Hero Section */
+/* ======== Hero Section ========*/
 .hero-section {
     display: flex;
     align-items: center;
@@ -224,8 +224,7 @@ i:hover {
     color: var(--primary-color);
 }
 
-
-/* About Section */
+/*======== About Section ========*/
 .first-button button{
     height: 35px;
     width: 135px;
@@ -298,6 +297,90 @@ i:hover {
     color: var(--primary-color);
 }
 
+
+/*======== Qualification Section =========*/
+.section-tittle3{
+    text-align: center;
+    padding: 15px 0 15px;
+    text-transform: uppercase;
+    font-size: var(--font-size-l);
+    color: var(--primary-color);
+    background:var(--secondary-color) ;
+    border-radius: 5px;
+}
+.section-tittle3::after{
+    content:"";
+    width:120px;
+    height: 3px;
+    display: block;
+    margin: 5px auto 0;
+    border-radius: var(--border-radius-circle);
+    background: var(--primary-color);
+}
+.qualfication{
+    padding: 15px;
+    background-color: var(--primary-color);
+}
+.qualfication .qualification-row {
+    background-color: var(--primary-color);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.qualification-row  .qualification-column{
+    background-color: var(--primary-color);
+    border-left: 5px solid var(--secondary-color);
+    border-right: 5px solid var(--secondary-color);
+    padding: 20px;
+    align-items: center;
+    border-radius: 5%;
+}
+.qualification-column .qualification-content {
+    background-color:var(--primary-color) ;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 2px solid var(--secondary-color);   
+
+}
+.qualification-column .qualification-content:hover {
+    box-shadow: 0 0 15px 5px var(--secondary-color) ;
+    transition: 0.5s;;
+    cursor: pointer;
+    transform:scale(1.1);
+
+}
+.qualification-content .qualification-collection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.qualification-content .qualification-collection div{
+    background-color: var(--primary-color);
+    border:2px solid var(--secondary-color);
+    padding: 5px;
+    border-radius: 5px;
+}
+.qualification-content .qualification-collection .year {
+    color: var(--secondary-color);
+    font-size: var(--font-size-s);
+}
+.qualification-content .collage-name {
+        font-size: var(--font-size-s);
+        text-decoration: none;
+    }
+.qualification-content .collage-name:hover {
+        text-decoration: underline;
+    }
+    .qualification-content .percentage {
+        font-size: 11px;
+    }
+    .qualification-content .content {
+        font-size: var(--font-size-s);
+    }
+
+/*======== Skills section ========*/
 /* Skills Section Start */
 .section-tittle2{
     text-align: start;
@@ -324,6 +407,11 @@ i:hover {
     background: var(--dark-color);
 }
 /* Skills section */
+.skills-section {
+    background-color: var(--secondary-color);
+    padding: 15px;
+    
+}
 .skills-section-row{
     padding: 20px;
     margin: 5px;
@@ -419,8 +507,6 @@ i:hover {
     transition: 0.3s;
     transform:scale(1.1);
 }
-
-
 /* Soft Skills section */
 .about-section {
     background-color: var(--secondary-color);
@@ -538,96 +624,7 @@ i:hover {
     color: var(--secondary-color);
 }
 
-/* Qualification Section */
-.section-tittle3{
-    text-align: center;
-    padding: 15px 0 15px;
-    text-transform: uppercase;
-    font-size: var(--font-size-l);
-    color: var(--primary-color);
-    background:var(--secondary-color) ;
-    border-radius: 5px;
-}
-.section-tittle3::after{
-    content:"";
-    width:120px;
-    height: 3px;
-    display: block;
-    margin: 5px auto 0;
-    border-radius: var(--border-radius-circle);
-    background: var(--primary-color);
-}
-.qualfication{
-    padding: 15px;
-    background-color: var(--primary-color);
-}
-.qualfication .qualification-row {
-    background-color: var(--primary-color);
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.qualification-row  .qualification-column{
-    background-color: var(--primary-color);
-    border-left: 5px solid var(--secondary-color);
-    border-right: 5px solid var(--secondary-color);
-    padding: 20px;
-    align-items: center;
-    border-radius: 5%;
-}
-.qualification-column .qualification-content {
-    background-color:var(--primary-color) ;
-    padding: 20px;
-    border-radius: 5px;
-    margin: 10px;
-    border: 2px solid var(--secondary-color);   
 
-}
-.qualification-column .qualification-content:hover {
-    box-shadow: 0 0 15px 5px var(--secondary-color) ;
-    transition: 0.5s;;
-    cursor: pointer;
-    transform:scale(1.1);
-
-}
-.qualification-content .qualification-collection{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.qualification-content .qualification-collection div{
-    background-color: var(--primary-color);
-    border:2px solid var(--secondary-color);
-    padding: 5px;
-    border-radius: 5px;
-}
-.qualification-content .qualification-collection .year {
-    color: var(--secondary-color);
-    font-size: var(--font-size-s);
-}
-.qualification-content .collage-name {
-        font-size: var(--font-size-s);
-        text-decoration: none;
-    }
-.qualification-content .collage-name:hover {
-        text-decoration: underline;
-    }
-    .qualification-content .percentage {
-        font-size: 11px;
-    }
-    .qualification-content .content {
-        font-size: var(--font-size-s);
-    }
-
-
-
-/* Skills section */
-.skills-section {
-    background-color: var(--secondary-color);
-    padding: 15px;
-    
-}
 
 
 @media screen and (min-width:1024px) {
