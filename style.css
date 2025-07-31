@@ -1049,6 +1049,8 @@ i:hover {
     background-color: var(--primary-color);
     border-radius: 4px;
     box-shadow: 0 0 2px 2px rgb(83, 82, 82);
+    position: relative;
+    right: 3%;
     
 }
 .skills-section-row .skills-section-column .skills-section-content-div .skill-bar{
