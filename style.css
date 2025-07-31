@@ -1021,7 +1021,7 @@ i:hover {
     margin: 5px auto 0;
 }
 .skills-section-row{
-    padding: 8px;
+    padding: 4px;
     margin: 2px;
     flex-direction:column-reverse;
 }
