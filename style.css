@@ -1026,10 +1026,12 @@ i:hover {
     flex-direction:column-reverse;
 }
 .skills-section-row .skills-section-column {
-    padding: 8px;
+    padding: 4px;
     margin: 2px;
     border-radius: none;
     border:none;
+    align-items: center;
+    text-align: center;
     
 }
 .skills-section-row .skills-section-column .skills-section-content-div:hover{
@@ -1045,7 +1047,7 @@ i:hover {
     padding: 5px;
     margin: 8px;
     background-color: var(--primary-color);
-    border-radius: 8px;
+    border-radius: 4px;
     box-shadow: 0 0 2px 2px rgb(83, 82, 82);
     
 }
@@ -1067,6 +1069,7 @@ i:hover {
     width: 300px;
     position: relative;
     top: 15px;
+    right: 3%;
     border-radius:3px ;
 }
 
