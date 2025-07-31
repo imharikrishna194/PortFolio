@@ -1059,13 +1059,26 @@ i:hover {
 .skills-section-row .skills-section-column {
     padding: 10px;
     margin: 2px;
+    border:none;
+
 }
+
 .skills-section-row .skills-section-column .skills-section-content-div{
     padding: 5px;
     box-shadow: 0 0 2px 2px rgb(83, 82, 82);
-
+    width: 75%;
+}
+.skills-section-row .skills-section-column2  .skills-section-column {
+    width: 55%;
 
 }
+.skills-section-row .skills-section-column .skills-section-content-div .skills-content div .skill-percentage{
+    font-size: var(--font-size-s);
+    position: relative;
+    right: 100px;
+}
+
+
    
 
     
