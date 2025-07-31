@@ -126,7 +126,7 @@ i:hover {
 .hero-section .hero-section-image .hero-image{
    animation:floatImage 4s ease-in-out infinite;
 }
-@keyframes floatImage{
+/* @keyframes floatImage{
    0%{
       transform:translateY(0);
       opacity: 0;
@@ -139,7 +139,7 @@ i:hover {
       transform: translateY(0);
       opacity: 2;
    }
-}
+} */
 .social-link-list {
     display: flex;
     align-items: center;
@@ -298,7 +298,7 @@ i:hover {
     color: var(--primary-color);
 }
 
-/* Soft Skills section */
+/* Skills Section Start */
 .section-tittle2{
     text-align: start;
     padding: 20px 0 20px;
@@ -307,6 +307,117 @@ i:hover {
     font-size: var(--font-size-m);
     color: var(--primary-color);
 }
+.section-tittle4{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: var(--font-size-m);
+    color: var(--dark-color);
+    padding-bottom: 15px ;
+}
+.section-tittle4::after{
+    content:"";
+    width: 130px;
+    height: 3px;
+    display: block;
+    margin: 5px auto 0;
+    border-radius: var(--border-radius-circle);
+    background: var(--dark-color);
+}
+/* Skills section */
+.skills-section-row{
+    padding: 20px;
+    margin: 5px;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.skills-section-row .skills-section-column {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+    padding: 20px;
+    margin: 5px;
+    border-radius: 15px;
+    
+
+}
+.skills-section-row .skills-section-column .skills-section-content-div{
+    background-color:orange;
+    padding: 10px;
+    box-shadow: 0 0 5px 5px rgb(83, 82, 82);
+
+
+}
+.skills-section-row .skills-section-column .skills-section-content-div .skills-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 5px; */
+    background-color: transparent;
+    width: 400px;
+    padding-bottom:0 ;
+    margin-bottom:0 ;
+}
+.skills-section-row .skills-section-column .skills-section-content-div {
+    margin: 8px;
+    background-color: var(--primary-color);
+    border-radius: 15px;
+    
+}
+.skills-section-row .skills-section-column .skills-section-content-div .skill-bar{
+    border-bottom:8px solid rgb(75, 74, 74);
+    position: relative;
+    bottom: -1px;
+    
+}
+.skills-section-row .skills-section-column .skills-section-content-div .skills-content i{
+    color:var(--secondary-color);
+}
+.skills-section-row .skills-section-column .skills-section-content-div .skills-content .skill-language{
+    font-size: var(--font-size-s);
+    padding-left:5px ;
+}
+.skills-section-row .skills-section-column .skills-section-content-div .skills-content div .skill-percentage{
+    font-size: var(--font-size-s);
+}
+.html5{
+    width: 96%;
+}
+.css3{
+    width: 92%;
+}
+.css3{
+    width: 92%;
+}
+.bootstrap5{
+    width: 75%;
+}  
+.javascript{
+    width: 82%;
+}   
+.reactJs{
+    width: 46%;
+}
+.gitgithub{
+    width: 56%;
+}
+
+
+
+
+
+
+
+
+.skills-section-row .skills-section-column .skills-image-div .skills-img{
+    height: 350px;
+}
+
+
+
+/* Soft Skills section */
 .about-section {
     background-color: var(--secondary-color);
     padding: 5px;
@@ -373,14 +484,14 @@ i:hover {
     animation-direction: alternate;
     animation-delay: 2;
 }
-@keyframes spin{
+/* @keyframes spin{
     0%{
 
     }
     100%{
         transform: rotateY(360deg);
     }
-}
+} */
 .about-section-button {
     text-align: center;
     padding: 10px;
@@ -894,6 +1005,25 @@ i:hover {
         
     }
 
+
+    /* Skills Section */
+    .skills-section-row .skills-section-column .skills-image-div .skills-img{
+        height: 220px;
+        width: 360px;
+    }
+    .skills-section-row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+    .skills-section-row .skills-section-column {
+        border: none;
+        position: relative;
+        right: 20px;
+    }
+    
    
 
     
