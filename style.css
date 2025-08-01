@@ -1406,16 +1406,19 @@ i:hover {
     padding: 10px;
 }
 .contact-section-div {
-    padding: 10px;
-    margin: 5px;
+    padding: 5px;
+    margin: 3px;
 
 }
 .contact-section-content {
-    padding: 15px;
+    padding: 5px;
 }
 .contact-div-pt {
-    padding: 15px;
+    padding: 5px;
     border-radius: 7px;
+}
+.contact-div-pt h2 {
+    font-size:15px;
 }
 .contact--cn {
     margin: 5px;
