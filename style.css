@@ -624,7 +624,34 @@ i:hover {
     color: var(--secondary-color);
 }
 
+/*======== Certification Section ======== */
+.certificaton-section {
+    padding: 20px;
+}
+.certificaton-section .certification-div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+.certificaton-section .certification-div  .certification-content {
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+}
+.certificaton-section .certification-div  .certification-content .content{
+    font-size: var(--font-size-s);
+}
+.certificaton-section .certification-div  .certification-content2 {
+    position: relative;
+    left: 230px;
+}
 
+.certificaton-section .certification-div .certification-img {
+    height:500px;
+    width: 800px  ;
+}
 
 
 @media screen and (min-width:1024px) {
@@ -755,6 +782,34 @@ i:hover {
         position: relative;
         right: 20px;
     }
+
+    /* Certification Section */
+.certificaton-section {
+    padding: 10px;
+}
+.certificaton-section .certification-div {
+    padding: 10px;
+}
+.certificaton-section .certification-div  .certification-content {
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+}
+.certificaton-section .certification-div  .certification-content .content{
+    font-size: 13px;
+    color: var(--secondary-color);
+}
+.certificaton-section .certification-div  .certification-content2 {
+    position: relative;
+    left: 130px;
+}
+
+.certificaton-section .certification-div .certification-img {
+    height:230px;
+    width: 380px  ;
+    border-radius: 5px;
+}
+
       
 }
 @media screen and (max-width:640px) {
@@ -1072,6 +1127,32 @@ i:hover {
     border-radius:3px ;
 }
 
+/* Certification Section */
+.certificaton-section {
+    padding: 10px;
+}
+.certificaton-section .certification-div {
+    padding: 10px;
+}
+.certificaton-section .certification-div  .certification-content {
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+}
+.certificaton-section .certification-div  .certification-content .content{
+    font-size: 13px;
+    color: var(--secondary-color);
+}
+.certificaton-section .certification-div  .certification-content2 {
+    position: relative;
+    left: 2px;
+}
+
+.certificaton-section .certification-div .certification-img {
+    height:230px;
+    width: 380px  ;
+    border-radius: 5px;
+}
 
    
 
