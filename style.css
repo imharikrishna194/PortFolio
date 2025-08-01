@@ -628,6 +628,7 @@ i:hover {
 /*======== Certification Section ======== */
 .certificaton-section {
     padding: 20px;
+    background-color: var(--primary-color);
 }
 .certificaton-section .certification-div {
     display: flex;
@@ -730,6 +731,7 @@ i:hover {
 /* Contact Section */
 .contact-section {
     padding: 20px;
+    background-color: var(--primary-color);
 }
 .contact-section-div {
     padding: 20px;
@@ -1404,6 +1406,7 @@ i:hover {
 /* Contact Section */
 .contact-section {
     padding: 10px;
+    /* width: 100%; */
 }
 .contact-section-div {
     padding: 5px;
@@ -1411,10 +1414,16 @@ i:hover {
 
 }
 .contact-section-content {
-    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:0 ;
+    padding-right:0 ;
 }
 .contact-div-pt {
-    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:0 ;
+    padding-right:0 ;
     border-radius: 7px;
 }
 .contact-div-pt h2 {
@@ -1422,10 +1431,10 @@ i:hover {
 }
 .contact--cn {
     margin: 5px;
-    padding: 5px;
+    padding: 10px;
 }
 .contact--cn .contact-icon {
-    padding: 5px;
+    padding: 10px;
     margin: 5px;
 }
 .contact--cn .contact-icon i{
@@ -1433,6 +1442,9 @@ i:hover {
 }
 .contact--cn .contact-address h3{
     font-size: var(--font-size-s);
+}
+.contact--cn .contact-address {
+    padding: 10px;
 }
 .contact--cn .contact-address p {
     font-size: 13px;
