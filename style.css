@@ -1145,12 +1145,12 @@ i:hover {
 }
 .certificaton-section .certification-div  .certification-content2 {
     position: relative;
-    left: 0px;
+    left: -2px;
 }
 
 .certificaton-section .certification-div .certification-img {
     height:200px;
-    width: 330px  ;
+    width: 310px  ;
     border-radius: 5px;
 }
 
