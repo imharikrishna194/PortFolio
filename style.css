@@ -653,6 +653,31 @@ i:hover {
     width: 800px  ;
 }
 
+/*======== Work Section =======*/
+.work-section {
+    padding: 20px;
+    background-color: var(--secondary-color);
+
+}
+.work-section .work-section-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.work-section .work-section-content .image-gallary {
+    padding: 10px;
+}
+.work-section .work-section-content .image-gallary .image {
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+}
+.work-section .work-section-content .image-gallary .image {
+    cursor: pointer;
+    
+    
+}
 
 @media screen and (min-width:1024px) {
 
@@ -1154,9 +1179,23 @@ i:hover {
     border-radius: 5px;
 }
 
-   
+/*======== Work Section =======*/
+.work-section {
+    padding: 10px;
+}
+.work-section .work-section-content {
+    padding: 10px;
+}
+.work-section .work-section-content .image-gallary {
+    padding: 10px;
+}
+.work-section .work-section-content .image-gallary .image {
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+}
 
-    
+
 
 }
 
