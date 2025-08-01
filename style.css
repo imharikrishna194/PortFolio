@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
+    user-select: none;
 }
 html {
     scroll-behavior: smooth;
@@ -706,10 +707,12 @@ i:hover {
     font-size: var(--font-size-m);
     color:#ffe100;
     margin-bottom: 15px;
+    user-select: none;
 }
 .image-gallary .image-content p{
     font-size: var(--font-size-s);
     color: #fff;
+    user-select: none;
 }
 .image-gallary .image-content a {
     color: var(--primary-color);
