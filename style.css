@@ -909,6 +909,7 @@ i:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 0;
 }
 .footer-section-cn2 .content .content-link{
     text-decoration: none;
