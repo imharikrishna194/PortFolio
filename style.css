@@ -1453,8 +1453,8 @@ i:hover {
     font-size:13px;
 }
 .social-links {
-    padding: 10px;
-    gap: 15px;
+    padding: 8px;
+    gap: 5px;
 }
 .social-links a{
     border-radius: 50%;
@@ -1467,7 +1467,7 @@ i:hover {
 
 /* form */
 .contact-section-content2 {
-    width: 90%;
+    width: 95%;
 }
 .contact-form {
     padding:20px;
