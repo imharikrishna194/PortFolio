@@ -1601,6 +1601,10 @@ i:hover {
 .footer-section .footer-bottom p{
     font-size:13px;
 }
+.footer-section-cn2 {
+    display: flex;
+    padding: -5px;
+}
 
 
 
