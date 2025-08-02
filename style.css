@@ -806,10 +806,10 @@ i:hover {
     color:var(--dark-color);
     flex-direction: row;
     margin: 5px;
-    padding: 20px;
+    padding: 28px;
     align-items: center;
     justify-content: space-evenly;
-    gap: 15px;
+    gap: 30px;
 }
 .social-links a{
     border: 2px var(--dark-color) solid;
