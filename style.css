@@ -908,6 +908,7 @@ i:hover {
 .footer-section-cn2 .content{
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 .footer-section-cn2 .content .content-link{
     text-decoration: none;
