@@ -934,18 +934,19 @@ i:hover {
     color: rgb(150, 146, 146);
     font-size:var(--font-size-s);
 }
-
 .footer-section .footer-bottom {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding: 10px;
-    text-align: center;
+    padding: 25px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: rgb(150, 146, 146)  1px solid;
 }
-.footer-section .footer-bottom hr{
-    border: none;
-    height: 1px;
-    background-color: rgb(150, 146, 146);
+.footer-section .footer-bottom .bottom-icon{
+    color: var(--secondary-color);
+    font-size: var(--font-size-l);
 }
+
 .footer-section .footer-bottom p{
       color: rgb(150, 146, 146);
 }
@@ -1595,8 +1596,15 @@ i:hover {
     font-weight:300;
 }
 .footer-section .footer-bottom {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 25px;
+    padding-left:50px ;
+    padding-right:50px ;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: rgb(150, 146, 146)  1px solid;
+    
 }
 .footer-section .footer-bottom p{
     font-size:13px;
@@ -1611,6 +1619,7 @@ i:hover {
     padding-right: 20px;
     padding: 5px;
 }
+
 
 
 
