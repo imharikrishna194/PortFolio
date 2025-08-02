@@ -1585,7 +1585,7 @@ i:hover {
     font-weight:300;
 }
 .footer-section-cn .content {
-    padding: 10px;
+    padding: 0px;
 }
 .footer-section-cn h3 {
     font-size: var(--font-size-s);
@@ -1603,7 +1603,7 @@ i:hover {
 }
 .footer-section-cn2 {
     display: flex;
-    padding: -25px;
+    padding: 0px;
 }
 
 .footer-section .footer-bottom {
