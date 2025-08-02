@@ -760,25 +760,18 @@ i:hover {
 }
 .contact-section-content {
     padding: 20px;
-    background-color: var(--primary-color);
-    margin: 5px;
-}
-.contact-div-pt {
-    padding: 20px;
     background-color: var(--secondary-color);
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
     margin: 5px;
+    border-radius: 15px;
 }
+
 .contact--cn {
     display: flex;
     background-color:var(--secondary-color);
     flex-direction: row;
     margin: 5px;
     padding: 10px;
+    
 }
 .contact--cn .contact-icon {
     padding: 10px;
@@ -820,7 +813,8 @@ i:hover {
     font-size: var(--font-size-m);
     color: var(--dark-color);
     border-radius: 50%;
-}
+} 
+
 
 
 
@@ -828,6 +822,9 @@ i:hover {
 /* form */
 .contact-section-content2 {
     width: 50%;
+}
+.contact-section-content3 {
+    width: 40%;
 }
 .contact-form {
     /* width: 100%; */
@@ -893,6 +890,7 @@ i:hover {
     transition: 0.3s;
     transform:scale(1.1);
 }
+
 
 @media screen and (min-width:1024px) {
 
@@ -1430,9 +1428,7 @@ i:hover {
     padding: 10px;
 
 }
-.contact-div-pt {
-    padding: 10px;
-}
+
 .contact--cn {
     padding: 5px;
 }
@@ -1467,6 +1463,9 @@ i:hover {
 
 /* form */
 .contact-section-content2 {
+    width: 95%;
+}
+.contact-section-content3 {
     width: 95%;
 }
 .contact-form {
