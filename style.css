@@ -735,6 +735,21 @@ i:hover {
 }
 .contact-section-div {
     padding: 20px;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-div-pt {
+    padding: 20px;
+    background-color: blue;
+
+}
+
+
+/* .contact-section-div {
+    padding: 20px;
     background-color: var(--primary-color);
     margin: 5px;
     display: flex;
@@ -787,7 +802,7 @@ i:hover {
 }
 .social-links {
     display: flex;
-    /* background-color:var(--dark-color); */
+    background-color:var(--dark-color);
     color:var(--dark-color);
     flex-direction: row;
     margin: 5px;
@@ -805,7 +820,7 @@ i:hover {
     font-size: var(--font-size-m);
     color: var(--dark-color);
     border-radius: 50%;
-}
+} */
 
 
 
@@ -1399,22 +1414,18 @@ i:hover {
     font-size: 13px;
 }
 
-/* Contact Form */
+
 .contact-section-content2 {
     width: 100%;
 }
-/* Contact Section */
-/* Contact Section */
-.contact-section {
-    padding: 10px;
-}
-.contact-section-div {
+
+/* .contact-section-div {
     padding: 10px;
     margin: 5px;
 }
 .contact-section-content {
     padding: 10px;
-   margin: 5px;
+    margin: 5px;
 }
 .contact-div-pt {
     padding: 10px;
@@ -1458,7 +1469,7 @@ i:hover {
     font-size: var(--font-size-m);
     color: var(--dark-color);
     border-radius: 50%;
-}
+} */
 
 
 
