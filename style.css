@@ -1581,17 +1581,17 @@ i:hover {
 .footer-section-cn2 .content .content-link{
     text-decoration: none;
     color: rgb(150, 146, 146);
-    font-size:var(--font-size-s);
+    font-size:13px;
     font-weight:300;
 }
 .footer-section-cn .content {
     padding: 10px;
 }
 .footer-section-cn h3 {
-    font-size: var(--font-size-m);
+    font-size: var(--font-size-s);
 }
 .footer-section-cn p {
-    font-size:var(--font-size-s);
+    font-size:13px;
     font-weight:300;
 }
 .footer-section .footer-bottom {
@@ -1599,7 +1599,7 @@ i:hover {
     padding-right: 50px;
 }
 .footer-section .footer-bottom p{
-    font-size: var(--font-size-s);
+    font-size:13px;
 }
 
 
