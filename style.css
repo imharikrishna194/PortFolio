@@ -133,7 +133,7 @@ i:hover {
 .hero-section .hero-section-image .hero-image{
    animation:floatImage 4s ease-in-out infinite;
 }
-/* @keyframes floatImage{
+@keyframes floatImage{
    0%{
       transform:translateY(0);
       opacity: 0;
@@ -146,7 +146,7 @@ i:hover {
       transform: translateY(0);
       opacity: 2;
    }
-} */
+}
 .social-link-list {
     display: flex;
     align-items: center;
@@ -588,14 +588,14 @@ a{
     animation-direction: alternate;
     animation-delay: 2;
 }
-/* @keyframes spin{
+@keyframes spin{
     0%{
 
     }
     100%{
         transform: rotateY(360deg);
     }
-} */
+}
 .about-section-button {
     text-align: center;
     padding: 10px;
